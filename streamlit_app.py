@@ -116,7 +116,12 @@ if selected_date and selected_time:
     if half_hourly_df is not None:
         st.subheader("Half-Hourly")
         st.dataframe(half_hourly_df)
-        fig = px.line(half_hourly_df, x=half_hourly_df['last_updated'], y='temp_c', title='Temperature Change', labels={'last_updated': 'Time', 'temp_c': 'Temperature'})
+        fig = px.line(half_hourly_df,
+                      x=half_hourly_df['last_updated'],
+                      y='temp_c',
+                      title='Temperature Change',
+                      labels={'last_updated': 'Time',
+                              'temp_c': 'Temperature'})
         st.plotly_chart(fig)
 
 conn.close()
