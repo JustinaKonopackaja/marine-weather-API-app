@@ -1,10 +1,8 @@
-# 🎈 Blank app template
+# WeatherAPI-Project
 
-A simple Streamlit app template for you to modify!
+This project fetches data from weatherapi.com for a specific location (default: Bermuda) and stores it in 3 tables in the SQL database.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
+Then all the data is used for visualisation and weather trend observation.
 
 1. Install the requirements
 
