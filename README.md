@@ -4,6 +4,8 @@ This project fetches data from weatherapi.com for a specific location (default: 
 
 Then all the data is used for visualisation and weather trend observation.
 
+![Data flow diagram](https://github.com/user-attachments/assets/857ccdf1-72f9-40fd-b0e5-ee11f3961edb)
+
 1. Install the requirements
 
    ```
